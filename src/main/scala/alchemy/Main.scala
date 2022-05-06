@@ -54,21 +54,3 @@ object Main {
     bw.close()
   }
 }
-
-// class DataGeneration {
-
-//   def getData(): ListBuffer[String] = {
-//     val format = new SimpleDateFormat("MM-dd-y HH:mm:ss")
-//     val currentDay = format.format(Calendar.getInstance().getTime())
-
-//     var orderList = ListBuffer[String]()
-
-//     for(itr <- 1 to 100) {
-//      var order = new Order(itr, currentDay.toString)
-//       orderList :+ order.generateRow()
-//      }
-
-//     return orderList
-//   }
-
-// }
